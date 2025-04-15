@@ -28,7 +28,7 @@
 1. **克隆仓库:**
 
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/CaicoLeung/microsoft-speecht5-tts-service
     cd microsoft-speecht5-tts
     ```
 
@@ -57,7 +57,7 @@
     pip install transformers==4.37.2 torch==2.2.0 soundfile==0.12.1 datasets==2.17.1 flask==3.0.2 playsound3==3.2.3 "numpy<2.0.0" sentencepiece==0.2.0
     ```
 
-    *(注意: 你可能需要创建一个 `requirements.txt` 文件，或者用户可以直接从 `pyproject.toml` 安装)*
+    *(注意: 你可能需要创建一个 `requirements.txt` 文件，或者可以直接从 `pyproject.toml` 安装)*
 
 ## 使用方法
 
