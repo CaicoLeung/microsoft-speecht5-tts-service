@@ -38,7 +38,8 @@ def text_to_speech():
         # Save to file and play the audio
         sf.write("speech.wav", speech.numpy(), samplerate=16000)
         playsound("speech.wav")
-        return {'success': True}, 200
+        print(f"Speech successfully for text: {text}")
+        return {"success": True}, 200
 
     except Exception as e:
         return {'error': str(e)}, 500
